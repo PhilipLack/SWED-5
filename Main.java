@@ -10,7 +10,7 @@ public class Main {
 
         System.out.print("Enter user ID: ");
         int userID = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
 
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
