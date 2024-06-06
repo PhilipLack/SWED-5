@@ -35,7 +35,7 @@ public class Main {
         while (true) {
             System.out.print("Type 'exit' to stop: ");
             String command = scanner.nextLine();
-            if (command.equalsIgnoreCase("exit")) {
+            if (command.equals("exit")) {
                 System.out.println("Stopping website monitor system...");
                 break;
             }
