@@ -36,7 +36,7 @@ public class Main {
             System.out.print("Type 'exit' to stop: ");
             String command = scanner.nextLine();
             if (command.equals("exit")) {
-                System.out.println("Stopping website monitor system...");
+                System.out.println("Stopping website monitor system");
                 break;
             }
         }
